@@ -1,3 +1,4 @@
+build
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -27,3 +28,4 @@ CTestTestfile.cmake
 *.exe
 *.out
 *.app
+
