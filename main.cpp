@@ -5,11 +5,11 @@
 int main() {
 	std::cout << "Hello, world!" << std::endl;
 	npipe pipe;
-	pipe.setAccessMode(PIPE_ACCESS_DUPLEX)
-		.setTypeMode(PIPE_TYPE_BYTE)
-		.setOverlapedMode(true)
-		.setWriteThroughMode(true)
-		.setFirstPipeInstance(false)
+	pipe.set_access_mode(PIPE_ACCESS_DUPLEX)
+		.set_type_mode(PIPE_TYPE_BYTE)
+		.set_overlapped_mode(true)
+		.set_write_through_mode(true)
+		.set_first_pipe_instance(false)
 		.create("//./pipe/first_test");
 	
 	//pipe.init("//./pipe/first_test");

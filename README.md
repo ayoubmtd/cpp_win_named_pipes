@@ -9,3 +9,5 @@ Todo :
 - Cliant connect to server
 - Client read from pipe
 - Client write to a pipe
+- Add Security access modes
+- Add Security attributes
