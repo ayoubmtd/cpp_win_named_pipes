@@ -28,4 +28,6 @@ CTestTestfile.cmake
 *.exe
 *.out
 *.app
+*.vs
+CMakeSettings.json
 

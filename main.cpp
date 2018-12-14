@@ -1,10 +1,10 @@
 #include <iostream>
-#include "npipe.h"
+#include "npipe_server.h"
 #include <tchar.h>
 
 int main() {
 	std::cout << "Hello, world!" << std::endl;
-	npipe pipe;
+	npipe_server pipe;
 	pipe.set_access_mode(PIPE_ACCESS_DUPLEX)
 		.set_type_mode(PIPE_TYPE_BYTE)
 		.set_overlapped_mode(true)
