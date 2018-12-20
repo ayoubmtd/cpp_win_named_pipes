@@ -29,5 +29,7 @@ CTestTestfile.cmake
 *.out
 *.app
 *.vs
+vs_build
+.vscode
 CMakeSettings.json
 
